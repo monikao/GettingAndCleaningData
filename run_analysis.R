@@ -13,7 +13,7 @@ features <- read.table(".\\features.txt")
 
 ##give columns names
 colnames(X_test) <- features$V2
-colnames(X_test) <- features$V2
+colnames(X_train) <- features$V2
 colnames(subject_test) <- "subject"
 colnames(subject_train) <- "subject"
 colnames(y_test) <- "activity"
